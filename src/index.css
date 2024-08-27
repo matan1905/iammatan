@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-size: auto;
+    background: linear-gradient(to bottom, #0e003f 0%, #af80ff 100%) no-repeat;
+    user-select: none;
+}
