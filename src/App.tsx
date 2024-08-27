@@ -13,14 +13,12 @@ export default function App() {
             <Hello/>
             <SectionName name={"Services"}/>
             <Services/>
-            <SectionName name={"The Process"}/>
-            <MyProcess/>
             <SectionName name={"Projects Showcase"}/>
             <MyProjects />
-            <SectionName name={"About me"}/>
-            <AboutMe/>
             <SectionName name={"Contact Me"}/>
             <ContactMe/>
+            <SectionName name={"About me"}/>
+            <AboutMe/>
             {/*<hr className="w-64 h-px border-0 bg-white"/>*/}
             <a href={"https://github.com/matan1905"} target="_blank" className={"text-xs underline"}>Follow me on GitHub</a>
         </div>
