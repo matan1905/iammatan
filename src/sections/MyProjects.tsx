@@ -1,6 +1,5 @@
 import {useState} from "react";
 import {Fade} from "react-awesome-reveal";
-import ImageZoom from "../ImageZoom.tsx";
 
 export default function MyProjects() {
     const [currentIndex,setCurrentIndex] = useState(0)
@@ -30,7 +29,7 @@ export default function MyProjects() {
         <div className={"flex flex-row justify-between px-4 w-full items-center"}>
         <span className={"cursor-pointer"}
             onClick={()=>setCurrentIndex(currentIndex == 0 ? projects.length - 1 :currentIndex - 1)}>
-            <img src={"./arrow-left.svg"} />
+            <img src={"/arrow-left.svg"} />
         </span>
             <Fade
                 className={'w-full'}
@@ -54,7 +53,7 @@ export default function MyProjects() {
 
         <span className={"cursor-pointer"}
             onClick={()=>setCurrentIndex((currentIndex + 1) % projects.length)}>
-            <img src={"./arrow-right.svg"} />
+            <img src={"/arrow-right.svg"} />
         </span>
         </div>
     );
