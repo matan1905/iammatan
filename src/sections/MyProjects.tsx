@@ -28,7 +28,7 @@ export default function MyProjects() {
     return (
         <div className={"flex flex-row justify-between px-4 w-full items-center"}>
         <span className={"cursor-pointer"}
-            onClick={()=>setCurrentIndex(currentIndex == 0 ? projects.length - 1 :currentIndex - 1)}>
+            onClick={()=>setCurrentIndex(currentIndex === 0 ? projects.length - 1 :currentIndex - 1)}>
             <img src={"/arrow-left.svg"} />
         </span>
             <Fade
